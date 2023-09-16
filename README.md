@@ -1,4 +1,4 @@
-# [Yo-Kai Watch Randomizer](https://github.com/heartyalexii/YKW2BSFSRandomizer//tag/1.1.0.0)
+# [Yo-Kai Watch Randomizer](https://github.com/heartyalexii/YKW2BSFSRandomizer/tag/1.1.0.0)
 ___________________________________________________________________________
 
 <img src="https://github.com/Tiniifan/YKWrandomizer/blob/main/YKWrandomizer/Icon.png" width="64" height="64">
