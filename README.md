@@ -30,7 +30,7 @@ The Tool is written in C# and the project is Open Source, everyone can contribut
 
 ㅤ | ㅤ
 :-------------------------:|:------------------------:
-![](https://i.imgur.com/1e6P844.png) |  ![](https://imgur.com/pXfFPHI.png)
+![]([https://i.imgur.com/1e6P844.png](https://media.discordapp.net/attachments/1053460755833426061/1152651926496886845/image.png?width=918&height=549)) |  ![](https://imgur.com/pXfFPHI.png)
 
 [Join the Official Randomizer Discord!](https://discord.gg/3wKp5ZxA9N)(You won't get support)
 
