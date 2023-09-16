@@ -20,3 +20,12 @@ C:\Users\Tinifan\source\repos\YKWrandomizer\YKWrandomizer\bin\Debug\YKWrandomize
 C:\Users\Tinifan\source\repos\YKWrandomizer\YKWrandomizer\bin\Debug\EndianBitConverter.dll
 C:\Users\Tinifan\source\repos\YKWrandomizer\YKWrandomizer\bin\Debug\EndianBitConverter.xml
 C:\Users\Tinifan\source\repos\YKWrandomizer\YKWrandomizer\obj\Debug\YKWrandomizer.csproj.CopyComplete
+C:\Users\smith\Source\Repos\YKWrandomizer\YKWrandomizer\bin\Debug\YKWrandomizer.exe.config
+C:\Users\smith\Source\Repos\YKWrandomizer\YKWrandomizer\bin\Debug\YKWrandomizer.exe
+C:\Users\smith\Source\Repos\YKWrandomizer\YKWrandomizer\bin\Debug\YKWrandomizer.pdb
+C:\Users\smith\Source\Repos\YKWrandomizer\YKWrandomizer\obj\Debug\YKWrandomizer.csproj.AssemblyReference.cache
+C:\Users\smith\Source\Repos\YKWrandomizer\YKWrandomizer\obj\Debug\YKWrandomizer.RandomizerWindow.resources
+C:\Users\smith\Source\Repos\YKWrandomizer\YKWrandomizer\obj\Debug\YKWrandomizer.csproj.GenerateResource.cache
+C:\Users\smith\Source\Repos\YKWrandomizer\YKWrandomizer\obj\Debug\YKWrandomizer.csproj.CoreCompileInputs.cache
+C:\Users\smith\Source\Repos\YKWrandomizer\YKWrandomizer\obj\Debug\YKWrandomizer.exe
+C:\Users\smith\Source\Repos\YKWrandomizer\YKWrandomizer\obj\Debug\YKWrandomizer.pdb

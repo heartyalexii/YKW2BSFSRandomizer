@@ -32,10 +32,10 @@ namespace YKWrandomizer.Yokai_Watch.Games
 
             public string GetText()
             {
-                return PrefixLetter[Prefix - 5] + Number.ToString("D3") + Variant.ToString("D3");
+                return PrefixLetter[Prefix - 5] + Number.ToString("D4") + Variant.ToString("D4");
             }
-        }
 
+        }
         public struct Stat
         {
             public int HP;

@@ -60,7 +60,7 @@ namespace YKWrandomizer.Yokai_Watch.Games.YW2
 
             T2bþ yokaiNames = new T2bþ(Language.Directory.GetFileFromFullPath("/data/res/text/chara_text_" + LanguageCode + ".cfg.bin"));
 
-            using (BinaryDataReader charaparam = new BinaryDataReader(Game.Directory.GetFileFromFullPath("/data/res/character/chara_param_0.03a.cfg.bin")))
+            using (BinaryDataReader charaparam = new BinaryDataReader(Game.Directory.GetFileFromFullPath("/data/res/character/chara_param_0.03n.cfg.bin")))
             {
                 charaparam.SeekOf<uint>(0xEEEFA832, 0x10);
                 charaparam.Skip(0x08);
@@ -133,7 +133,7 @@ namespace YKWrandomizer.Yokai_Watch.Games.YW2
         {
             List<Evolution> evolutions;
 
-            using (BinaryDataReader charaparam = new BinaryDataReader(Game.Directory.GetFileFromFullPath("/data/res/character/chara_param_0.03a.cfg.bin")))
+            using (BinaryDataReader charaparam = new BinaryDataReader(Game.Directory.GetFileFromFullPath("/data/res/character/chara_param_0.03n.cfg.bin")))
             {
                 charaparam.SeekOf<uint>(0x4C6181CB, 0x10);
                 charaparam.Skip(0x08);
@@ -158,7 +158,7 @@ namespace YKWrandomizer.Yokai_Watch.Games.YW2
             {
                 using (BinaryDataWriter charaparamWriter = new BinaryDataWriter(memoryStream))
                 {
-                    using (BinaryDataReader charaparamReader = new BinaryDataReader(Game.Directory.GetFileFromFullPath("/data/res/character/chara_param_0.03a.cfg.bin")))
+                    using (BinaryDataReader charaparamReader = new BinaryDataReader(Game.Directory.GetFileFromFullPath("/data/res/character/chara_param_0.03n.cfg.bin")))
                     {
                         int entryCount = charaparamReader.ReadValue<int>();
                         long tableOffset = charaparamReader.ReadValue<int>();
@@ -233,7 +233,7 @@ namespace YKWrandomizer.Yokai_Watch.Games.YW2
                     }
 
                     // Replace File
-                    Game.Directory.GetFolderFromFullPath("/data/res/character/").Files["chara_param_0.03a.cfg.bin"].ByteContent = memoryStream.ToArray();
+                    Game.Directory.GetFolderFromFullPath("/data/res/character/").Files["chara_param_0.03n.cfg.bin"].ByteContent = memoryStream.ToArray();
                 }
             }
 

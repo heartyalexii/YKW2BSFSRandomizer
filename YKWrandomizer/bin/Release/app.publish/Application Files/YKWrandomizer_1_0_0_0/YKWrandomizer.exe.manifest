@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="YKWrandomizer.exe" version="1.0.0.0" publicKeyToken="5fec8bc1a857e6f8" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="YKWrandomizer" version="1.4.0.8" language="neutral" processorArchitecture="msil" />
+    <commandLine file="YKWrandomizer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="YKWrandomizer.exe" size="658400">
+      <assemblyIdentity name="YKWrandomizer" version="1.4.0.8" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>RhERTk1bGQ+9og+ImQJzKMAuPq1GwZMyD9JRQvycgbA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Icon.ico" size="94236">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zvwmzZvKYsQTh4TR5y8agjQkJBlOVMcPIu8c/cmtBD8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LICENSE-APACHE.txt" size="11046">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uGAfx5vfjYCI8JOL6oYf/GPtDuu+3yX0SrLPLoW9ftw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="YKWrandomizer.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-3PNGK2G\smith" issuerKeyHash="08434a5a884927d5cc74c30d54cf1f008bb0dccc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>S09y324Wuzax2iq7jmWkVXcRnwPlCiZh+G+D7whp8MI=</DigestValue></Reference></SignedInfo><SignatureValue>INViAwmWzbYUrSgqCR+V0xSSTQaGUPDOi/uyHkJDjN1PIEh7xqmqUOIWnC8UiVGODVXOHNfR1DZdOseWw6fA2gJ94mw6Uf1UROjad+gC/pFugMqw3MjC2kTNNzJKYlvrmgUBk0JjBuLb8uB5KPz/9nEHFrn+x+oeASJrozQBMgE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wN+RaFPHII34kiVHBHUfhOPkEuB0ExqJtM0uyA1Ux4/Dzn6umTvYCvwQpJ901RIKVS4IHpv99rlQ+qBh4KTzW1wWLC6Nf8O0AjGngskJX3zt2/eWhEwzG7oXPa9LBWxWyy6wpMBSTjwQxzCRsoDEtamxXQ++99nBDoJ7zIvdjr0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c2f06908ef836ff861260ae5039f117755a4658ebb2adab136bb166edf724f4b" Description="" Url=""><as:assemblyIdentity name="YKWrandomizer.exe" version="1.0.0.0" publicKeyToken="5fec8bc1a857e6f8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-3PNGK2G\smith</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>IXj1+j7urVvXoHMfrPo1Bw6yb5KdficdzdNK3auBnR4=</DigestValue></Reference></SignedInfo><SignatureValue>cuWLl6//rHGi2tc97wnlGY/ZWxng7PHP5Z3UOLGVrOIjpDyvrBREuhBn32o+EXok7G4TB0t+wpDh8FPTBEmXbK7j+528l8vdRFgqYT9LQ2OtyvCMhsMOEjA4cWph5Elppu6HCmtdxDvMVAM/KZXUCqsvttEXDHazRTCMp20uxa4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wN+RaFPHII34kiVHBHUfhOPkEuB0ExqJtM0uyA1Ux4/Dzn6umTvYCvwQpJ901RIKVS4IHpv99rlQ+qBh4KTzW1wWLC6Nf8O0AjGngskJX3zt2/eWhEwzG7oXPa9LBWxWyy6wpMBSTjwQxzCRsoDEtamxXQ++99nBDoJ7zIvdjr0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQXObxYIMNqIxEGz6mlB4q7DANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMAUABOAEcASwAyAEcAXABzAG0AaQB0AGgwHhcNMjMwOTE2MTc1OTI2WhcNMjQwOTE1MjM1OTI2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMAUABOAEcASwAyAEcAXABzAG0AaQB0AGgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMDfkWhTxyCN+JIlRwR1H4Tj5BLgdBMaibTNLsgNVMePw85+rpk72Ar8EKSfdNUSClUuCB6b/fa5UPqgYeCk81tcFiwujX/DtAIxp4LJCV987dv3loRMMxu6Fz2vSwVsVssusKTAUk48EMcwkbKAxLWpsV0PvvfZwQ6Ce8yL3Y69AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAJd9ok3/0E7q7DAxVbc+fhnpWo1IZk4+JwmcJOqT5XIPg4ImcG7PlR03w9zJlPYpkTjHuuGSEjApNrT2ejJu9zXeuaMVE3wG9rqW7niek4qk9tNrtcQBZ5uLiQcvXgO+hLcHMJQl9TPtRMKrGyufvrQpxPH2vIdWqRoFelR+1uy8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
