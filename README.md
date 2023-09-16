@@ -26,9 +26,6 @@ The Tool is written in C# and the project is Open Source, everyone can contribut
 - European ✅
 - American ✅
 
-**Screenshots**
-https://imgur.com/pXfFPHI.png
-
 [Join the Official Randomizer Discord!](https://discord.gg/3wKp5ZxA9N)(You won't get support)
 
 [Join the YKW Modding Discord!]([https://discord.gg/3wKp5ZxA9N](https://discord.gg/QeBUAHPKKE))
