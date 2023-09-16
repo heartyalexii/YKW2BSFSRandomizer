@@ -37,4 +37,4 @@ The Tool is written in C# and the project is Open Source, everyone can contribut
 
 [Join the Official Discord!](https://discord.gg/3wKp5ZxA9N)
 
-[Guide How to Randomize YKW games! 1.4 Guide](https://github.com/Tiniifan/YKWrandomizer/wiki)
+[Guide How to Randomize YKW games! 1.4 Guide](https://github.com/heartyalexii/YKW2BSFSRandomizer/wiki)
