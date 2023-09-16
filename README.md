@@ -21,7 +21,7 @@ The Tool is written in C# and the project is Open Source, everyone can contribut
 
 **Supported Game**
 - Yo-Kai Watch ✅
-- Yo-Kai Watch 2 ✅ (Only Psychic Specters)
+- Yo-Kai Watch 2 ✅ (ONLY BSFS, You Must Merge your Update and Main .fa)
 - Yo-kai Watch 3 ✅
 
 **Supported Region**
