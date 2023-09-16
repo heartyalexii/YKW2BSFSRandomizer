@@ -27,9 +27,6 @@ The Tool is written in C# and the project is Open Source, everyone can contribut
 - American ✅
 
 **Screenshots**
-
-ㅤ | ㅤ
-:-------------------------:|:------------------------:
 https://imgur.com/pXfFPHI.png
 
 [Join the Official Randomizer Discord!](https://discord.gg/3wKp5ZxA9N)(You won't get support)
